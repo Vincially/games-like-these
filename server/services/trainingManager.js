@@ -27,6 +27,10 @@ class TrainingManager extends EventEmitter {
         });
     }
 
+    shutdown() {
+        return this.#worker.terminate();
+    }
+
     isTrained() {
         return this.#trained;
     }
