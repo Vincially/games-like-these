@@ -75,13 +75,13 @@ class TrainingManager extends EventEmitter {
     }
 
     #handleWorkerMessage(message) {
-        const { type, requestId, data } = message;
+        const { type, data } = message;
 
         switch (type) {
-            case 'progress':
+            case 'progressUpdate':
                 this.emit('progress', data);
                 break;
-            case 'log':
+            case 'trainingLog':
                 this.emit('log', data);
                 break;
             case 'trainingComplete':
@@ -89,27 +89,6 @@ class TrainingManager extends EventEmitter {
                 this.#trainingInProgress = false;
                 this.emit('complete', data);
                 break;
-            case 'recommendResult': {
-                const pending = this.#pending.get(requestId);
-                if (pending) {
-                    clearTimeout(pending.timeout);
-                    this.#pending.delete(requestId);
-                    pending.resolve(data);
-                }
-                break;
-            }
-            case 'error': {
-                const pending = this.#pending.get(requestId);
-                if (pending) {
-                    clearTimeout(pending.timeout);
-                    this.#pending.delete(requestId);
-                    pending.reject(new Error(data.message));
-                } else {
-                    this.#trainingInProgress = false;
-                    this.emit('error', data);
-                }
-                break;
-            }
         }
     }
 }
