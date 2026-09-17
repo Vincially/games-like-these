@@ -1,0 +1,18 @@
+<div class="col-sm-6 col-lg-4">
+    <div class="card h-100 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">{{title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{genre}} &middot; {{platform}}</h6>
+            <p class="card-text small">
+                <i class="bi bi-star-fill text-warning"></i> {{rating}}
+                <span class="ms-2">${{price}}</span>
+            </p>
+            <p class="card-text">
+                <span class="badge text-bg-secondary me-1">{{tags}}</span>
+            </p>
+            <button type="button" class="btn btn-sm btn-primary" data-action="add-play" data-game-id="{{id}}">
+                <i class="bi bi-plus-lg"></i> Add to library
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Starforge Odyssey",
+    "genre": "RPG",
+    "platform": "PC",
+    "tags": ["open-world", "story-rich", "singleplayer"],
+    "rating": 4.6,
+    "price": 59.99
+  },
+  {
+    "id": 2,
+    "title": "Crimson Vector",
+    "genre": "FPS",
+    "platform": "PC",
+    "tags": ["competitive", "multiplayer", "fast-paced"],
+    "rating": 4.2,
+    "price": 39.99
+  },
+  {
+    "id": 3,
+    "title": "Nimbus Leap",
+    "genre": "Platformer",
+    "platform": "Switch",
+    "tags": ["colorful", "singleplayer", "casual"],
+    "rating": 4.4,
+    "price": 24.99
+  },
+  {
+    "id": 4,
+    "title": "Ironclad Empires",
+    "genre": "Strategy",
+    "platform": "PC",
+    "tags": ["turn-based", "historical", "singleplayer"],
+    "rating": 4.5,
+    "price": 44.99
+  },
+  {
+    "id": 5,
+    "title": "Puzzlequarium",
+    "genre": "Puzzle",
+    "platform": "PC",
+    "tags": ["relaxing", "casual", "singleplayer"],
+    "rating": 4.1,
+    "price": 14.99
+  },
+  {
+    "id": 6,
+    "title": "Overtime Rivals",
+    "genre": "Sports",
+    "platform": "PS5",
+    "tags": ["multiplayer", "competitive", "arcade"],
+    "rating": 3.9,
+    "price": 49.99
+  },
+  {
+    "id": 7,
+    "title": "Apex Circuit",
+    "genre": "Racing",
+    "platform": "Xbox",
+    "tags": ["multiplayer", "fast-paced", "arcade"],
+    "rating": 4.3,
+    "price": 34.99
+  },
+  {
+    "id": 8,
+    "title": "Harborview Life",
+    "genre": "Simulation",
+    "platform": "PC",
+    "tags": ["relaxing", "singleplayer", "casual"],
+    "rating": 4.0,
+    "price": 29.99
+  },
+  {
+    "id": 9,
+    "title": "Hollow Static",
+    "genre": "Horror",
+    "platform": "PC",
+    "tags": ["story-rich", "singleplayer", "atmospheric"],
+    "rating": 4.7,
+    "price": 19.99
+  },
+  {
+    "id": 10,
+    "title": "Depth Charge Dive",
+    "genre": "Roguelike",
+    "platform": "PC",
+    "tags": ["fast-paced", "singleplayer", "replayable"],
+    "rating": 4.5,
+    "price": 17.99
+  },
+  {
+    "id": 11,
+    "title": "Wyrmfall Chronicles",
+    "genre": "RPG",
+    "platform": "PS5",
+    "tags": ["open-world", "story-rich", "multiplayer"],
+    "rating": 4.8,
+    "price": 69.99
+  },
+  {
+    "id": 12,
+    "title": "Ashline Protocol",
+    "genre": "FPS",
+    "platform": "Xbox",
+    "tags": ["story-rich", "singleplayer", "atmospheric"],
+    "rating": 4.4,
+    "price": 54.99
+  },
+  {
+    "id": 13,
+    "title": "Featherbound",
+    "genre": "Platformer",
+    "platform": "PC",
+    "tags": ["singleplayer", "story-rich", "colorful"],
+    "rating": 4.6,
+    "price": 22.99
+  },
+  {
+    "id": 14,
+    "title": "Meridian Command",
+    "genre": "Strategy",
+    "platform": "PC",
+    "tags": ["multiplayer", "competitive", "sci-fi"],
+    "rating": 4.2,
+    "price": 39.99
+  },
+  {
+    "id": 15,
+    "title": "Glasswood Pact",
+    "genre": "Puzzle",
+    "platform": "Switch",
+    "tags": ["story-rich", "relaxing", "singleplayer"],
+    "rating": 4.3,
+    "price": 19.99
+  }
+]

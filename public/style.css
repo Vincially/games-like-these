@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f6fa;
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+#played-games-list:empty::after {
+    content: 'No games played yet.';
+    color: #6c757d;
+}
+
+.progress {
+    height: 1.5rem;
+}
+
+#recommendations-grid:empty::after,
+#games-grid:empty::after {
+    content: 'Loading games...';
+    color: #6c757d;
+}
